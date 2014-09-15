@@ -1,89 +1,137 @@
-<h1 id="tutorial-para-la-instalacin-de-ruby-en-windows">Tutorial para la instalación de Ruby en Windows.</h1>
+<!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
+  <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/script.js"></script>
+
+  <title>Evelpia.github.io</title>
+  <meta name="description" content="Just a tutorial .html for Ruby on Windows">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header>
+      <h1 class="title">Evelpia.github.io</h1>
+    </header>
+    <div id="container">
+      <p class="tagline">Just a tutorial .html for Ruby on Windows</p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          <a href="https://github.com/Evelpia" class="code">View Evelpia.github.io on GitHub</a>
+        </div>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+        <article class="markdown-body">
+          <h1>
+<a name="tutorial-para-la-instalaci%C3%B3n-de-ruby-en-windows" class="anchor" href="#tutorial-para-la-instalaci%C3%B3n-de-ruby-en-windows"><span class="octicon octicon-link"></span></a>Tutorial para la instalación de Ruby en Windows.</h1>
 
 <ul>
-  <li>Instalacion de Ruby en Windows:
-    <ol>
-      <li>
-        <p>Usaremos la pagina web de Ruby Installer para descargar lo necesario. Descargaremos la version mas estable (1.9.3) y el DevKit correspondiente
-�  <img src="./images/Captura1w.png" alt="Alt text" />
-&gt;
-�  <img src="./images/Captura2w.png" alt="Alt text" />
-&gt;</p>
-      </li>
-      <li>
-        <p>Ejecutamos el &#8220;.exe&#8221; de ruby y lo instalamos (si queremos podemos dejar todas las opciones por defecto). Luego descomprimiremos el DevKit.</p>
-      </li>
-      <li>
-        <p>Para instalar completamente el DevKit ejecutaremos la consola de windows &#8220;cmd&#8221; y nos pondremos en el directorio donde hayamos descomprimido el DevKit. Entonces usamos los comandos <strong><em>&#8220;ruby dk.rb init&#8221;</em></strong> y <strong><em>&#8220;ruby dk.rb install&#8221;</em></strong> en ese orden.</p>
-      </li>
-    </ol>
-  </li>
-</ul>
+<li>
+<p>Instalación de Ruby en Windows:</p>
+
+<ol>
+<li>
+<p>Usaremos la pagina web de Ruby Installer para descargar lo necesario. Descargaremos la version mas estable (1.9.3) y el DevKit correspondiente</p>
 
 <blockquote>
-  <blockquote>
-    <p><img src="./images/Captura3w.png" alt="Alt text" /></p>
-  </blockquote>
+<blockquote>
+<p><img src="./images/Captura1w.png" alt="Alt text"></p>
 
+<p><img src="./images/Captura2w.png" alt="Alt text"></p>
+</blockquote>
+</blockquote>
+</li>
+<li><p>Ejecutamos el ".exe" de ruby y lo instalamos (si queremos podemos dejar todas las opciones por defecto). Luego descomprimiremos el DevKit.</p></li>
+<li><p>Para instalar completamente el DevKit ejecutaremos la consola de windows "cmd" y nos pondremos en el directorio donde hayamos descomprimido el DevKit. Entonces usamos los comandos <strong><em>"ruby dk.rb init"</em></strong> y <strong><em>"ruby dk.rb install"</em></strong> en ese orden.</p></li>
+</ol>
+</li>
+</ul><blockquote>
+<blockquote>
+<p><img src="./images/Captura3w.png" alt="Alt text"></p>
+</blockquote>
 </blockquote>
 
-<pre><code>4. Podemos comprobar que ruby (la version que queremos) esta instalada con un simple ***"ruby -v"*** en la propia consola.
+<pre><code>4. Podemos comprobar que ruby (la versión que queremos) está instalada con un simple ***"ruby -v"*** en la propia consola.
 </code></pre>
 
 <ul>
-  <li>
-    <p>Actualizando, instalando y probando las gemas:</p>
+<li>
+<p>Actualizando, instalando y probando las gemas:</p>
 
-    <ol>
-      <li>Ahora actualizaremos las gemas con el siguiente comando <strong><em>&#8220;gem update&#8221;</em></strong> :</li>
-    </ol>
-  </li>
-</ul>
-
+<ol>
+<li>Ahora actualizaremos las gemas con el siguiente comando <strong><em>"gem update"</em></strong> :</li>
+</ol>
+</li>
+</ul><blockquote>
 <blockquote>
-  <blockquote>
-    <p><img src="./images/Captura4w.png" alt="Alt text" /></p>
-  </blockquote>
-
+<p><img src="./images/Captura4w.png" alt="Alt text"></p>
+</blockquote>
 </blockquote>
 
 <pre><code>2. Momento entonces de instalar bundler introduciendo desde la propia consola ***"gem install bundler"*** :
 </code></pre>
 
 <blockquote>
-  <blockquote>
-    <pre><code>![Alt text](./images/Captura5w.png)
-</code></pre>
-  </blockquote>
-
+<blockquote>
+<p><img src="./images/Captura5w.png" alt="Alt text"></p>
+</blockquote>
 </blockquote>
 
 <pre><code>3. Luego procedemos a instalar la gema twitter y sinatra con un ***"gem install twitter"*** y ***"gem install sinatra"*** :
 </code></pre>
 
 <blockquote>
-  <blockquote>
-    <p><img src="./images/Captura6w1.png" alt="Alt text" /></p>
-  </blockquote>
+<blockquote>
+<p><img src="./images/Captura6w1.png" alt="Alt text"></p>
 
-  <blockquote>
-    <p><img src="./images/Captura6w2.png" alt="Alt text" /></p>
-  </blockquote>
-
+<p><img src="./images/Captura6w2.png" alt="Alt text"></p>
+</blockquote>
 </blockquote>
 
-<pre><code>4. Probaremos la gema sinatra con una simple aplicacion en ruby. Creamos el fichero hello.rb escribimos el siguiente codigo y lo ejecutamos.
+<pre><code>4. Probaremos la gema sinatra con una pequeña aplicación en ruby. Creamos el fichero hello.rb escribimos el siguiente codigo y lo ejecutamos.
 </code></pre>
 
 <blockquote>
-  <blockquote>
-    <p><img src="./images/Captura7w1.png" alt="Alt text" /></p>
-  </blockquote>
+<blockquote>
+<p><img src="./images/Captura7w1.png" alt="Alt text"></p>
 
-  <blockquote>
-    <p><img src="./images/Captura7w2.png" alt="Alt text" /></p>
-  </blockquote>
-
+<p><img src="./images/Captura7w2.png" alt="Alt text"></p>
+</blockquote>
 </blockquote>
 
 <p>Santiago Sainz Fdez.</p>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="owner">
+
+      <p><a href="https://github.com/Evelpia" class="avatar"><img src="https://avatars3.githubusercontent.com/u/2429014?v=2&amp;s=60" width="48" height="48"></a>View <a href="https://github.com/Evelpia">Evelpia</a> on <a href="https://www.github.com">GitHub</a></p>
+
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="http://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
+      </div>
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <a href="https://github.com/Evelpia/Evelpia.github.io/tarball/master" class="tar">tar</a><a href="https://github.com/Evelpia/Evelpia.github.io/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+    <p class="name"></p>
+  </div>
+
+  
+</body>
+</html>
